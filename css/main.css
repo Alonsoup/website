@@ -1,9 +1,15 @@
 
 /*****************************NAV******************************/
 .navigation {
-  margin-top: 20px;
+  padding-top: 20px;
   margin-left: 0px;
   margin-right: 0px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  top: 0;
+  height: 141px;
 }
 .navigation .active {
   text-decoration: underline !important;
@@ -45,6 +51,7 @@ body {
 }
 .content {
   margin: 5%;
+  margin-top: 141px;
 }
 /*****************************Main******************************/
 
@@ -75,6 +82,12 @@ img {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
+#works-menu {
+  background-color: white;
+  padding: 2px 11px 0 11px;
+}
+
 #works-menu a {
   display: block;
   margin: 5px;
